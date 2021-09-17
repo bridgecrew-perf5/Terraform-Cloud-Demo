@@ -1,6 +1,4 @@
-resource "aws_instance" "instance" {
-  ami           = "ami-013f17f36f8b1fefb" #use-east-1 Instance AMI
+resource "aws_instance" "example" { 
+  ami           = "ami-0947d2ba12ee1ff75"
   instance_type = "t2.micro"
-  tags={
-    Name ="Terraform-Cloud-Instance"
 }
